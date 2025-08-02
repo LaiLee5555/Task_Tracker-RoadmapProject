@@ -16,29 +16,29 @@ For installation method please check on java official website
 There is four type of command: 
 ## - add : to add a new task
 cmd: java TaskCli.java add (description of the task)
-example: 
+#### example: 
 
         java TaskCli.java add "Do Homework"
     
 ## - list : to list all the exit task and list by filter the status
 ### list all:
-cmd: 
+#### cmd: 
 
     java TaskCli.java list
 ### list by Fileter the status:
-cmd: 
+#### cmd: 
     
     java TaskCli.java list "todo"
     java TaskCli.java list "inProgress"
     java TaskCli.java list "Done"
 ## - update : to update the description of the task
 cmd: java TaskCli.java upadate (id) (description)
-example: 
+#### example: 
 
     java TaskCli.java update 1 "Do Math Homwork"
 ## - delete : to delete the task:
 cmd: java TaskCli.java delete (id)
-example: 
+##### example: 
         
       java TaskCli.java delete 1
       
