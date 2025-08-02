@@ -12,7 +12,9 @@ For installation method please check on java official website
 
 There is four type of command: 
   - add : to add a new task
-          cmd: java TaskCli.java add (description of the task)
+## cmd: 
+java TaskCli.java add (description of the task)
+          
           example: java TaskCli.java add "Do Homework"
     
   - list : to list all the exit task and list by filter the status
