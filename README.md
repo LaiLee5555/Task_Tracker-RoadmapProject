@@ -1,3 +1,6 @@
+This is the project practical from Roadmaps website:
+please check: https://roadmap.sh/projects/task-tracker
+
 First you have to install Java SDK and Adding the Path enviroment to your computer to be able to run Java
 For installation method please check on java official website
 
