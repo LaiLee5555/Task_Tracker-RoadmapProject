@@ -30,7 +30,7 @@ cmd: java TaskCli.java add (description of the task)
     
     java TaskCli.java list "todo"
     java TaskCli.java list "inProgress"
-    java TaskCli.java list "Done"
+    java TaskCli.java list "done"
 ## - update : to update the description of the task
 cmd: java TaskCli.java upadate (id) (description)
 #### example: 
@@ -40,10 +40,23 @@ cmd: java TaskCli.java upadate (id) (description)
 cmd: java TaskCli.java delete (id)
 ##### example: 
         
-      java TaskCli.java delete 1
+    java TaskCli.java delete 1
       
   The terminal will ask you to comfirm type "yes" or "no"
             "yes" to delete || "no" to cancel
+
+## - mark-done || mark-inProgress : to mark the status of the task as done or inprogress
+cmd: java TaskCli.java mark-done (id)
+cmd: java TaskCli.java mark-inProgress (id)
+#### example: 
+
+    java TaskCli.java mark-inProgress 1
+    java TaskCli.java done 2
+
+
+    
+
+
           
 
           
